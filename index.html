@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Blog</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.form-box, .post {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px;
+    width: 100%;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #333;
+}
+
+.post img {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.delete-btn {
+    background: red;
+    margin-top: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Simple Blog</h1>
+
+    <div class="form-box">
+        <h2>Create a New Post</h2>
+        <input type="text" id="title" placeholder="Post Title">
+        <input type="text" id="image" placeholder="Image URL (optional)">
+        <textarea id="content" rows="4" placeholder="Write your post here..."></textarea>
+        <button id="addBtn">Add Post</button>
+    </div>
+
+    <h2>All Posts</h2>
+    <div id="posts"></div>
+</div>
+
+<script src="">
+</script>
+
+</body>
+</html>
+
